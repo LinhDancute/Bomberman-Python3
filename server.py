@@ -103,7 +103,6 @@ def threaded_client(conn, battleGround_Idex):
             conn.sendall(pickle.dumps(reply))
         except:
             break
-
     print("Lost connection")
     conn.close()
 

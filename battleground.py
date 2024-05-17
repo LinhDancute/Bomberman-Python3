@@ -3,7 +3,8 @@ from player import Player
 from bomb import Bomb
 
 class BattleGround():
-    def __init__(self, groundMatrix, player, player2, bombSurface, boxGoSurface, boxSatSurface, itemBombSurface, itemBombSizeSurface):
+    def __init__(self, groundMatrix, player, player2, bombSurface, boxGoSurface,
+                 boxSatSurface, itemBombSurface, itemBombSizeSurface):
         self.groundMatrix = groundMatrix
         self.player = player
         self.player2 = player2
