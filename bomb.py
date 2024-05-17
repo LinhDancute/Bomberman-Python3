@@ -12,7 +12,10 @@ class Bomb():
         self.bombBangSize = 1     
         self.bombBang_Surface = []
         self.setUpSurfaceBombBang()
-        self.bombBang = [BombBang(self.bombBang_Surface[0][self.bombBangSize-1]),BombBang(self.bombBang_Surface[1][self.bombBangSize-1]),BombBang(self.bombBang_Surface[2][self.bombBangSize-1]),BombBang(self.bombBang_Surface[3][self.bombBangSize-1])]
+        self.bombBang = [BombBang(self.bombBang_Surface[0][self.bombBangSize-1]),
+                         BombBang(self.bombBang_Surface[1][self.bombBangSize-1]),
+                         BombBang(self.bombBang_Surface[2][self.bombBangSize-1]),
+                         BombBang(self.bombBang_Surface[3][self.bombBangSize-1])]
         self.bombBangNone = BombBang(self.bombBang_Surface[0][self.bombBangSize-1])
 
     def animate(self):
@@ -85,7 +88,10 @@ class Bomb():
     
     def hide(self):
         self.rect = self.surface.get_rect(center=(-1000, 200))
-        self.bombBang = [BombBang(self.bombBang_Surface[0][self.bombBangSize-1]),BombBang(self.bombBang_Surface[1][self.bombBangSize-1]),BombBang(self.bombBang_Surface[2][self.bombBangSize-1]),BombBang(self.bombBang_Surface[3][self.bombBangSize-1])]
+        self.bombBang = [BombBang(self.bombBang_Surface[0][self.bombBangSize-1]),
+                         BombBang(self.bombBang_Surface[1][self.bombBangSize-1]),
+                         BombBang(self.bombBang_Surface[2][self.bombBangSize-1]),
+                         BombBang(self.bombBang_Surface[3][self.bombBangSize-1])]
         self.Bang()        
         self.status = 0
         
