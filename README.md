@@ -3,9 +3,12 @@
 ## Mục lục
 - [Lời giới thiệu](#lời-giới-thiệu)
 - [Kế hoạch triển khai](#kế-hoạch-triển-khai)
-- [Cách chạy game](#cách-chạy-game)
-- [Đóng góp](#đóng-góp)
-- [Giấy phép](#giấy-phép)
+- [Các tính năng chính](#các-tính-năng-chính)
+- [Các công nghệ và công cụ sử dụng](#các-công-nghệ-và-công-cụ-sử-dụng)
+- [Cài đặt môi trường](#cài-đặt-môi-trường)
+- [Hướng dẫn chạy dự án](#hướng-dẫn-chạy-dự-án)
+- [Cấu trúc dự án](#cấu-trúc-dự-án)
+
 
 ## Lời giới thiệu
 Chào mừng bạn đến với Dự án Game Bomberman! Dự án này nhằm phát triển một game Bomberman nhiều người chơi sử dụng Python và các thư viện khác nhau. Mục tiêu là cung cấp một hướng dẫn toàn diện và triển khai việc xây dựng một game Bomberman mang lại sự giải trí và trải nghiệm phát triển đầy thử thách.
