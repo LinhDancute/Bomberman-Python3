@@ -83,23 +83,84 @@ Trò chơi tiếp tục phát triển và mở rộng trên nhiều nền tảng
 - **Tối ưu hóa giao diện người dùng**:
   - Đảm bảo trải nghiệm game tốt cho người chơi
 
-## Cách chạy game
-1. Clone repository:
+## Các công nghệ và công cụ sử dụng
+
+- **Python**: Ngôn ngữ lập trình chính.
+- **Pygame**: Thư viện Python để phát triển game 2D.
+- **Pycharm JetBrain**: Môi trường phát triển tích hợp (IDE) chính được sử dụng.
+- **Git & GitHub**: Công cụ quản lý mã nguồn và lưu trữ dự án.
+
+## Cài đặt môi trường
+
+Để cài đặt môi trường phát triển cho dự án này, bạn cần cài đặt Pycharm JetBrain và thiết lập Pygame như sau:
+
+### Cài đặt Pycharm JetBrain sử dụng Toolbox App
+
+1. **Download ToolBox App**
+
+    ![Download ToolBox](img_bomberman/download_toolbox.png)
+
+2. **Install Toolbox app**
+
+    ![Install Toolbox](img_bomberman/install_toolbox.png)
+
+3. **Chọn phiên bản Pycharm và cài đặt**
+
+    ![Choose Version](img_bomberman/choose_version.png)
+
+4. **Cài đặt thành công**
+
+    ![Install Success](img_bomberman/install_py_toolbox.png)
+
+5. **Tạo project đầu tiên**
+
+    ![Create Project](img_bomberman/create_project.png)
+
+6. **Chạy main.py**
+
+    ![Run Main](img_bomberman/run_hello.png)
+
+### Install package trong Pycharm
+
+1. **Mở Python Package trên Navbar**
+
+    ![Choose Python Package](img_bomberman/choose_python_package.png)
+
+    Hoặc: Chọn "View" -> "Tool Window" -> "Python Package"
+
+    ![View Tool Window](img_bomberman/view_tool window_python package.png)
+
+2. **Tìm kiếm và cài đặt thư viện**
+
+    ![Install Package](img_bomberman/install package pygame.png)
+
+## Hướng dẫn chạy dự án
+
+1. **Clone repository**
+
     ```bash
-    git clone https://github.com/yourusername/bomberman.git
-    ```
-2. Chuyển vào thư mục dự án:
-    ```bash
+    git clone https://github.com/username/bomberman.git
     cd bomberman
     ```
-3. Cài đặt các thư viện cần thiết:
+
+2. **Cài đặt các thư viện cần thiết**
+
+    Mở terminal trong Pycharm và chạy:
+
     ```bash
     pip install -r requirements.txt
     ```
-4. Chạy game:
-    ```bash
-    python main.py
-    ```
+
+3. **Chạy dự án**
+
+    Mở `main.py` trong Pycharm và chạy nó.
+
+## Cấu trúc dự án
+
+- `img_bomberman/`: Chứa các hình ảnh minh họa cho cài đặt và sử dụng.
+- `src/`: Chứa mã nguồn của trò chơi.
+- `README.md`: Tài liệu này.
+- `requirements.txt`: Danh sách các thư viện Python cần thiết cho dự án.
 
 ## Đóng góp
 Chúng tôi hoan nghênh mọi đóng góp từ tất cả mọi người. Để đóng góp cho dự án này, vui lòng fork repository, tạo một branch mới cho tính năng hoặc sửa lỗi của bạn, và gửi pull request. Đảm bảo mã nguồn của bạn tuân thủ các tiêu chuẩn mã hóa của dự án và bao gồm các bài kiểm tra thích hợp.
