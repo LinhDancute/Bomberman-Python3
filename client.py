@@ -223,11 +223,15 @@ def main():
         if battleGround.playerAction(sound_PlaceBomb, last_bomb_placed_time):
             last_bomb_placed_time = pygame.time.get_ticks()
         battleGround.checkPlayer_BoxTouchingBombBang(screen)
+        # if p1.isGameOver() or p2.isGameOver():
+        #     pygame.quit()
         if p1.isGameOver():
             p1.gameWaiting()
+
             pygame.time.set_timer(P1RecoverEvt, 1000)
         if p2.isGameOver():
             p2.gameWaiting()
+
             pygame.time.set_timer(P2RecoverEvt, 1000)
 
         redrawScreen(screen, battleGround)

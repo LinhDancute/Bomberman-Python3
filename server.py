@@ -69,7 +69,7 @@ p2 = PlayerDTO(0, 700, 700, 1, 1, 2, 0, [bombP2])
 battleGrounds = [BattleGroundDTO(groundMatrix, p1, p2), BattleGroundDTO(groundMatrix, p2, p1)]
 
 def threaded_client(conn, battleGround_Idex):
-    if battleGround_Idex ==0 | battleGround_Idex % 2 == 0:
+    if battleGround_Idex == 0 :
         battleGround_Idex = 0
     else: 
         battleGround_Idex = 1
@@ -77,6 +77,8 @@ def threaded_client(conn, battleGround_Idex):
     reply = ""
     while True:
         try:
+            # if (not battleGrounds[0]) or (not battleGrounds[1]):
+            #     break
             data = pickle.loads(conn.recv(2048))
             battleGrounds[battleGround_Idex] = data
 
@@ -103,6 +105,7 @@ def threaded_client(conn, battleGround_Idex):
             conn.sendall(pickle.dumps(reply))
         except:
             break
+    # battleGrounds[battleGround_Idex]=[]
     print("Lost connection")
     conn.close()
 
