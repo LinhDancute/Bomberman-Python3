@@ -5,6 +5,7 @@
 - [Kế hoạch triển khai](#kế-hoạch-triển-khai)
 - [Các tính năng chính](#các-tính-năng-chính)
 - [Các công nghệ và công cụ sử dụng](#các-công-nghệ-và-công-cụ-sử-dụng)
+- [Giao diện Game Bomberman](#giao-diện-game-bomberman)
 - [Cài đặt môi trường](#cài-đặt-môi-trường)
 - [Hướng dẫn chạy dự án](#hướng-dẫn-chạy-dự-án)
 - [Cấu trúc dự án](#cấu-trúc-dự-án)
